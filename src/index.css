@@ -1,13 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.cdnfonts.com/css/made-tommy-outline");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Clash Display", sans-serif;
+}
+.tommy-font {
+  font-family: "MADE TOMMY Outline", sans-serif;
+}
+.primary-color {
+  background: linear-gradient(270deg, #903aff 0%, #fe34b9 100%);
+}
+.bg-color {
+  background-color: #160f2a;
+}
+.text-color-dark {
+  color: #903aff;
+}
+.bg-color-dark {
+  background-color: rgb(142, 56, 255);
+}
+.text-color-light {
+  color: #d434fe;
+}
+.text {
+  font-size: 128px;
+}
+.bg-color-light {
+  background-color: rgb(212, 52, 254);
+}
+.bg-gradient {
+  background: linear-gradient(270deg, #8f01fe 0%, #ff2674 97.24%);
+}
+.text-customPurple {
+  color: #ff26b9;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (min-width: 768px) {
+  .left-r {
+    left: 26px;
+  }
+  .-left-29 {
+    left: -106px;
+  }
+}
+
+@media (min-width: 768px) {
+  .-left-29 {
+    left: -106px;
+  }
+}
+.-top {
+  top: -70px;
 }
